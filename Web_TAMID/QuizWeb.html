@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Web</title>
+    <link rel="stylesheet" href="QuizWebStyle.css">
+</head>
+<body>
+
+    <div class="background-image"></div>
+
+    <div class="quiz_layout">
+        <div class="quiz_header">
+            <h1 id="quiz_header_content">My Simple Quiz</h1>
+        </div>
+
+        <hr id="quiz_hr">
+
+        <div class="quiz_body">
+            <div class="quiz_body_question">
+                <p> What is your <b>favorite</b> programming language?</p>
+            </div>
+
+            <div class="quiz_body_choices">
+
+                <label class="quiz_body_container">
+                    <input type="checkbox">
+                    <span class="quiz_body_checkmark">Python</span>
+                </label>
+
+                <label class="quiz_body_container">
+                    <input type="checkbox">
+                    <span class="quiz_body_checkmark">Java</span>
+                </label>
+
+                <label class="quiz_body_container">
+                    <input type="checkbox">
+                    <span class="quiz_body_checkmark">JavaScript</span>
+                </label>
+
+                <label class="quiz_body_container">
+                    <input type="checkbox">
+                    <span class="quiz_body_checkmark">C++</span>
+                </label>
+            </div>
+
+            <div class="quiz_body_submit">
+                <button type="submit" id="quiz_body_submit_button" onclick="submit(this)">Submit</button>
+            </div>
+
+        </div>
+    </div>
+
+<script src="QuizApp.js"></script>
+</body>
+</html>
